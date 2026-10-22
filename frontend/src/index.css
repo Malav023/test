@@ -1,0 +1,18 @@
+* { box-sizing: border-box; }
+body { font-family: system-ui, sans-serif; background: #f4f5f7; margin: 0; color: #222; }
+.container { max-width: 600px; margin: 40px auto; padding: 0 16px; }
+h1 { margin-bottom: 4px; }
+.badge { font-size: 12px; padding: 2px 8px; border-radius: 10px; background: #ddd; margin-left: 8px; }
+.badge.HIT { background: #c8f2d2; }
+.badge.MISS { background: #ffe3b3; }
+form { display: flex; gap: 8px; margin: 16px 0; }
+input { padding: 8px; border: 1px solid #ccc; border-radius: 6px; flex: 1; }
+button { padding: 8px 12px; border: 0; border-radius: 6px; background: #3b6cf6; color: #fff; cursor: pointer; }
+button.danger { background: #e5484d; }
+button.ghost { background: #e2e4e9; color: #222; }
+ul { list-style: none; padding: 0; }
+li { display: flex; align-items: center; gap: 8px; background: #fff; padding: 10px; border-radius: 8px; margin-bottom: 8px; }
+li .title { flex: 1; }
+li .title.done { text-decoration: line-through; color: #888; }
+.desc { font-size: 12px; color: #777; }
+.error { color: #e5484d; }
